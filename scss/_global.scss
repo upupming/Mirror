@@ -10,7 +10,7 @@ body {
 }
 
 a {
-    color: $theme-primary;
+    color: #dba65f;
     @include transition-all;
     &:hover,
     &:focus {
