@@ -8,6 +8,7 @@ Self-hosted mirror(Hosted at https://mirror.upupming.site) websites for Google a
     - [Google Maps][3]
     - [Google Translate][4]
     - [Google Docs][5]
+    - [Google Codejam][8]
 + Chinese Wikipedia
     - [Chinese Wikipedia Desktop][7]
     - [Chinese Wikipedia Mobile][6]
@@ -19,7 +20,7 @@ Self-hosted mirror(Hosted at https://mirror.upupming.site) websites for Google a
 [5]:https://docs.google.upupming.site
 [6]:https://mwiki.upupming.site/w/index.php?title=Wikipedia:%E9%A6%96%E9%A1%B5&mobileaction=toggle_view_mobile
 [7]:https://zh.wikipedia.org/w/index.php?title=Wikipedia:%E9%A6%96%E9%A1%B5&mobileaction=toggle_view_desktop
-
+[8]:https://code.google.upupming.site/codejam/
 
 
 ## Edit this site
@@ -433,6 +434,9 @@ http {
 
         location / {
             proxy_pass https://code.google.com;
+        }
+        location /codejam/ {
+            proxy_pass https://code.google.com/codejam/;
         }
     }
 
