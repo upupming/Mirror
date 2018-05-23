@@ -141,6 +141,7 @@ http {
     proxy_cookie_domain ipv6.google.com google.upupming.site;
     proxy_cookie_domain ipv4.google.com ipv4.google.upupming.site;
     proxy_cookie_domain maps.google.com maps.google.upupming.site;
+    proxy_cookie_domain code.google.com code.google.upupming.site;
     proxy_cookie_domain translate.google.com translate.google.upupming.site;
     proxy_cookie_domain docs.google.com docs.google.upupming.site;
     proxy_cookie_domain photos.google.com photos.google.upupming.site;
