@@ -9,8 +9,8 @@ Self-hosted mirror(Hosted at https://mirror.upupming.site) websites for Google a
     - [Google Translate][4]
     - [Google Docs][5]
 + Chinese Wikipedia
-    - [Chinese Wikipedia Desktop][6]
-    - [Chinese Wikipedia Mobile][7]
+    - [Chinese Wikipedia Desktop][7]
+    - [Chinese Wikipedia Mobile][6]
 
 [1]:https://google.upupming.site/
 [2]:https://scholar.google.upupming.site/
