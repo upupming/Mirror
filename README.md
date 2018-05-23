@@ -91,8 +91,8 @@ http {
     proxy_redirect https://zh.m.wikipedia.org/ https://mwiki.upupming.site/;
     proxy_redirect https://zh.wikipedia.org/ https://wiki.upupming.site/;
 
-    # substitute all mimeTypes
-    subs_filter_types *;
+    # substitute text mimeTypes
+    subs_filter_types text/css text/xml application/json;
 
     # wikipedia replacement
     subs_filter zh.wikipedia.org wiki.upupming.site;
