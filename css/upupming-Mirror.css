@@ -1,3 +1,4 @@
+################ https://mirror.upupming.site/css/new-age.css
 my-footer {
   padding: 25px 0;
   text-align: center;
@@ -22,7 +23,7 @@ my-footer ul li a {
 my-footer ul li a:hover, my-footer ul li a:focus, my-footer ul li a:active, my-footer ul li a.active {
   text-decoration: none;
 }
-
+################ https://mirror.upupming.site/vendor/bootstrap/css/bootstrap.css
 .list-inline {
   padding-left: 0;
   list-style: none;
@@ -35,4 +36,18 @@ my-footer ul li a:hover, my-footer ul li a:focus, my-footer ul li a:active, my-f
 .list-inline-item:not(:last-child) {
   margin-right: 0.5rem;
 }
-
+################ https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css?version=1.5.1
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.fa-user:before {
+  content: "\f007";
+}
+.fa-eye:before {
+  content: "\f06e";
+}
