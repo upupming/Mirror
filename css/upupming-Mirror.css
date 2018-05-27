@@ -1,0 +1,38 @@
+my-footer {
+  padding: 25px 0;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.3);
+  background-color: #222222;
+}
+
+my-footer p {
+  font-size: 12px;
+  margin: 0;
+}
+
+my-footer ul {
+  margin-bottom: 0;
+}
+
+my-footer ul li a {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+my-footer ul li a:hover, my-footer ul li a:focus, my-footer ul li a:active, my-footer ul li a.active {
+  text-decoration: none;
+}
+
+.list-inline {
+  padding-left: 0;
+  list-style: none;
+}
+
+.list-inline-item {
+  display: inline-block;
+}
+
+.list-inline-item:not(:last-child) {
+  margin-right: 0.5rem;
+}
+

@@ -54,8 +54,7 @@ See https://github.com/yaoweibin/ngx_http_substitutions_filter_module
     --with-http_sub_module \
     --with-http_ssl_module \
     --add-module=/root/ngx_http_substitutions_filter_module \
-    --with-pcre=../pcre-8.42 \
-    --with-http_realip_module
+    --with-pcre=../pcre-8.42
 ```
 
 ### Configuration Nginx
