@@ -1,4 +1,4 @@
-// ################ https://mirror.upupming.site/css/new-age.css
+/* ################ https://mirror.upupming.site/css/new-age.css */
 my-footer {
   padding: 25px 0;
   text-align: center;
@@ -23,7 +23,7 @@ my-footer ul li a {
 my-footer ul li a:hover, my-footer ul li a:focus, my-footer ul li a:active, my-footer ul li a.active {
   text-decoration: none;
 }
-// ################ https://mirror.upupming.site/vendor/bootstrap/css/bootstrap.css
+/* ################ https://mirror.upupming.site/vendor/bootstrap/css/bootstrap.css */
 .list-inline {
   padding-left: 0;
   list-style: none;
@@ -36,7 +36,7 @@ my-footer ul li a:hover, my-footer ul li a:focus, my-footer ul li a:active, my-f
 .list-inline-item:not(:last-child) {
   margin-right: 0.5rem;
 }
-// ################ https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css?version=1.5.1
+/* ################ https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css?version=1.5.1 */
 @font-face {
   font-family: 'FontAwesome';
   src: url('https://cdn.staticfile.org/font-awesome/4.7.0/fonts/fontawesome-webfont.eot?v=4.7.0');
