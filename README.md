@@ -27,6 +27,16 @@ Self-hosted mirror(Hosted at https://mirror.upupming.site) websites for Google a
 
 Fork this repository, and then follow the [README](./new-age-README.md) of new age theme.
 
+## SSL certificate 
+
+Using certbot to get Let's encrypt SSL certificate.
+
+See https://github.com/certbot/certbot
+
+```
+./certbot-auto certonly --agree-tos -t --standalone -d <domain-name>
+```
+
 ## Nginx configuration
 
 ### compile Nginx from source with necessary modules
