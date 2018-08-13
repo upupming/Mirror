@@ -4,11 +4,13 @@ Self-hosted mirror(Hosted at https://mirror.upupming.site) websites for Google a
 
 + Google
     - [Google Search][1]
+      - AMP supported
     - [Google Scholar][2]
     - [Google Maps][3]
     - [Google Translate][4]
     - [Google Docs][5]
     - [Google Codejam][8]
+    - All other subdomains of google.com
 + Chinese Wikipedia
     - [Chinese Wikipedia Desktop][7]
     - [Chinese Wikipedia Mobile][6]
@@ -33,6 +35,19 @@ Using certbot to get Let's encrypt SSL certificate.
 
 See https://github.com/certbot/certbot
 
+All in one certificate: 
+
+```
+./certbot-auto certonly --agree-tos --manual \
+-d *.upupming.site \
+-d *.google.upupming.site \
+-d *.blog.upupming.site \
+-d *.git.upupming.site \
+-d  *.gstatic.upupming.site \
+-d *.ampcdn.upupming.site 
+```
+
+Individual certificates:
 ```
 ./certbot-auto certonly --agree-tos -t --standalone -d <domain-name>
 ```
