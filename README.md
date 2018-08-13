@@ -44,7 +44,8 @@ All in one certificate:
 -d *.blog.upupming.site \
 -d *.git.upupming.site \
 -d  *.gstatic.upupming.site \
--d *.ampcdn.upupming.site 
+-d *.amp.upupming.site \
+-d *.ampcdn.upupming.site
 ```
 
 Individual certificates:
