@@ -4,7 +4,7 @@ Self-hosted mirror(Hosted at https://mirror.upupming.site) websites for Google a
 
 + Google
     - [Google Search][1]
-      - AMP supported
+      - AMP is too difficult to supported. If you see an AMP page, please request desktop site.
     - [Google Scholar][2]
     - [Google Maps][3]
     - [Google Translate][4]
@@ -43,9 +43,7 @@ All in one certificate:
 -d *.google.upupming.site \
 -d *.blog.upupming.site \
 -d *.git.upupming.site \
--d  *.gstatic.upupming.site \
--d *.amp.upupming.site \
--d *.ampcdn.upupming.site
+-d  *.gstatic.upupming.site
 ```
 
 Individual certificates:
