@@ -1,0 +1,27 @@
+Making mirror google
+Making mirror wiki
+Making mirror mwiki
+Folder google created
+Folder google configured
+Deploying google to now
+now.sh: 
+
+now.sh: 
+
+Folder wiki created
+Folder wiki configured
+Deploying wiki to now
+now.sh: 
+
+now.sh: 
+
+Folder mwiki created
+Folder mwiki configured
+Deploying mwiki to now
+now.sh: 
+
+now.sh: 
+
+D:\github\mirror\google cleaned up
+D:\github\mirror\wiki cleaned up
+D:\github\mirror\mwiki cleaned up

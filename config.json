@@ -1,0 +1,19 @@
+{
+  "mirrors": [
+    {
+      "key": "google",
+      "proxied": "https://www.google.com/",
+      "proxying": "google.upupming.site"
+    },
+    {
+      "key": "wiki",
+      "proxied": "https://zh.wikipedia.org/",
+      "proxying": "wiki.upupming.site"
+    },
+    {
+      "key": "mwiki",
+      "proxied": "https://zh.m.wikipedia.org/",
+      "proxying": "mwiki.upupming.site"
+    }
+  ]
+}
