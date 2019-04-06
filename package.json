@@ -27,7 +27,8 @@
   "keywords": [
     "GFW",
     "proxy",
-    "reverse proxy"
+    "reverse proxy",
+    "http proxy"
   ],
   "author": "upupming",
   "license": "MIT",
