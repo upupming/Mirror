@@ -11,6 +11,7 @@ Using [now.sh](https://zeit.co/) to proxy mirror websites for Google and Chinese
   - [Google Maps][3]
   - [Google Translate][4]
   - [Google Docs][5]
+  - [Google Drive](https://drive.google.upupming.site/)
   - [Google Codejam][8]
   <!-- - All other subdomains of google.com -->
 - Chinese Wikipedia
