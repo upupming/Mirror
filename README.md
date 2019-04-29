@@ -6,7 +6,7 @@ Using [now.sh](https://zeit.co/) to proxy mirror websites for Google and Chinese
 
 - Google
   - [Google Search][1]
-    - AMP is too difficult to supported. If you see an AMP page, please request desktop site.
+    - AMP is too difficult to support. If you see an AMP page, please request desktop site.
   - [Google Scholar][2]
   - [Google Maps][3]
   - [Google Translate][4]
@@ -51,7 +51,7 @@ Using [now.sh](https://zeit.co/) to proxy mirror websites for Google and Chinese
 See the following log for example:
 
 <details>
-<summary>Sample log of `upupming Mirror`</summary>
+<summary>Sample log of <code>upupming Mirror</code></summary>
 
 ```txt
 Making mirror google
