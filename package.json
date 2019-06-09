@@ -10,10 +10,7 @@
     "patch": "npm version patch && npm publish && git push origin master && git push origin --tags",
     "minor": "npm version minor && npm publish && git push origin master && git push origin --tags",
     "major": "npm version major && npm publish && git push origin master && git push origin --tags",
-    "deploy": "node index.js",
-    "google": "cd google && npm run deploy",
-    "wiki": "cd wiki && npm run deploy",
-    "mwiki": "cd mwiki && npm run deploy"
+    "deploy": "node index.js"
   },
   "standard": {
     "env": [

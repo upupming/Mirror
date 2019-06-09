@@ -21,8 +21,16 @@ function makeMirror (mirror) {
       return console.error(err)
     }
     console.log(`Folder ${mirror.key} created`)
-    replaceInFile(path.resolve(__dirname, mirror.key, 'index.js'), 'https://www.google.com/', mirror.proxied)
-    replaceInFile(path.resolve(__dirname, mirror.key, 'now.json'), 'google.upupming.site', mirror.proxying)
+    replaceInFile(
+      path.resolve(__dirname, mirror.key, 'index.js'),
+      'https://www.google.com/',
+      mirror.proxied
+    )
+    replaceInFile(
+      path.resolve(__dirname, mirror.key, 'now.json'),
+      'google.upupming.site',
+      mirror.proxying
+    )
     console.log(`Folder ${mirror.key} configured`)
 
     console.log(`Deploying ${mirror.key} to now`)
@@ -30,7 +38,9 @@ function makeMirror (mirror) {
     console.log(`now.sh: \n${ns.stderr.toString()}`)
     console.log(`now.sh: \n${ns.stdout.toString()}`)
 
-    rimraf(dir, function () { console.log(`${dir} cleaned up`) })
+    rimraf(dir, function () {
+      console.log(`${dir} cleaned up`)
+    })
   })
 }
 

@@ -23,8 +23,8 @@ Using [now.sh](https://zeit.co/) to proxy mirror websites for Google and Chinese
 [3]: https://maps.google.upupming.site
 [4]: https://translate.google.upupming.site/
 [5]: https://docs.google.upupming.site
-[6]: https://mwiki.upupming.site/w/index.php?title=Wikipedia:%E9%A6%96%E9%A1%B5&mobileaction=toggle_view_mobile
-[7]: https://wiki.upupming.site/w/index.php?title=Wikipedia:%E9%A6%96%E9%A1%B5&mobileaction=toggle_view_desktop
+[6]: https://mw.upupming.site
+[7]: https://w.upupming.site
 [8]: https://code.google.upupming.site/codejam/
 
 ## How to use
