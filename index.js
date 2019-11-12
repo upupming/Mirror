@@ -28,8 +28,8 @@ function makeMirror (mirror) {
     )
     replaceInFile(
       path.resolve(__dirname, mirror.key, 'now.json'),
-      'google.upupming.site',
-      mirror.proxying
+      `,"alias": "google.upupming.site"`,
+      mirror.proxying ? `,"alias": "${mirror.proxying}"` : ''
     )
     console.log(`Folder ${mirror.key} configured`)
 

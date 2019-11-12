@@ -5,6 +5,5 @@
   ],
   "routes": [
     { "src": "/(.*)", "dest": "/index.js" }
-  ],
-  "alias": "google.upupming.site"
+  ],"alias": "google.upupming.site"
 }

@@ -38,6 +38,8 @@ Using [now.sh](https://zeit.co/) to proxy mirror websites for Google and Chinese
           // project name for now.sh
           "key": "google",
           "proxied": "https://www.google.com/",
+          // If you don't need custom domain,
+          // simply leave `proxying` empty or commented
           "proxying": "google.upupming.site"
         }
       ]
