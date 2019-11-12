@@ -1,4 +1,4 @@
-# upupming Mirror v0.0.2
+# Mirror v0.0.2
 
 > Note: if you have a server and want to implement something like [subs_filter](https://www.nginx.com/resources/wiki/modules/substitutions/) (eg. replace all `google.com` to `google.upupming.site` in web pages.), please consider using [v0.0.1](https://github.com/upupming/Mirror/tree/master). v0.0.1 can also proxy all subdomains of Google, it will be useful if you are a heavy Google user.
 
@@ -33,7 +33,7 @@ Using [now.sh](https://zeit.co/) to proxy mirror websites for Google and Chinese
 
     ```js
     {
-      "mirrors": [
+      "mirrors": [ // an array which configures all websites you want to proxy
         {
           // project name for now.sh
           "key": "google",
@@ -45,13 +45,13 @@ Using [now.sh](https://zeit.co/) to proxy mirror websites for Google and Chinese
     ```
 
 2. Install [now cli](https://zeit.co/download#now-cli) and login.
-3. Properly configure your custom domain according to [Aliasing a Deployment](https://zeit.co/docs/v2/domains-and-aliases/aliasing-a-deployment/).
+3. [Optional] Properly configure your custom domain according to [Aliasing a Deployment](https://zeit.co/docs/v2/domains-and-aliases/aliasing-a-deployment/). (Only if you need a custom domain.)
 4. Run `npm i` and then `npm run deploy`.
 
 See the following log for example:
 
 <details>
-<summary>Sample log of <code>upupming Mirror</code></summary>
+<summary>Sample log of <code>Mirror</code></summary>
 
 ```txt
 Making mirror google
