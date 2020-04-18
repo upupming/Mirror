@@ -34,7 +34,7 @@ function makeMirror (mirror) {
     console.log(`Folder ${mirror.key} configured`)
 
     console.log(`Deploying ${mirror.key} to now`)
-    let ns = spawnSync(now, [dir, '--target', 'production'])
+    let ns = spawnSync(now, [dir, '--target', 'production', '--confirm'])
     console.log(`now.sh: \n${ns.stderr.toString()}`)
     console.log(`now.sh: \n${ns.stdout.toString()}`)
 
