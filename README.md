@@ -49,7 +49,7 @@ Using [now.sh](https://zeit.co/) to proxy mirror websites for Google and Chinese
 2. Install [now cli](https://zeit.co/download#now-cli) and login.
 
     ```bash
-    npm i -g now@12.0.0
+    npm i -g now
     ```
 
 3. [Optional] Properly configure your custom domain according to [Aliasing a Deployment](https://zeit.co/docs/v2/domains-and-aliases/aliasing-a-deployment/). (Only if you need a custom domain.)
