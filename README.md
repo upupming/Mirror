@@ -1,3 +1,5 @@
+## Archived due to the [Fair Use Policy](https://vercel.com/docs/platform/fair-use-policy) of vercel.
+
 # Mirror v0.0.2
 
 > Note: if you have a server and want to implement something like [subs_filter](https://www.nginx.com/resources/wiki/modules/substitutions/) (eg. replace all `google.com` to `google.upupming.site` in web pages.), please consider using [v0.0.1](https://github.com/upupming/Mirror/tree/master). v0.0.1 can also proxy all subdomains of Google, it will be useful if you are a heavy Google user.
